@@ -1,0 +1,13 @@
+{
+  "name": "use-responses",
+  "tree": {
+    "$className": "DataModel",
+    "use-responses": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "use-responses": {
+        "$path": "src"
+      }
+    }
+  }
+}
