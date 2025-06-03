@@ -1,8 +1,8 @@
 --!strict
 
-local IDialogue = require(script.Parent.roblox_packages.dialogue_types);
+local DialogueMakerTypes = require(script.Parent.roblox_packages.dialogue_maker_types);
 
-type Dialogue = IDialogue.Dialogue;
+type Dialogue = DialogueMakerTypes.Dialogue;
 
 local function useResponses(dialogue: Dialogue): {Dialogue}
 
